@@ -1,0 +1,11 @@
+{
+    "name": "Basic custom code injector",
+    "version": "1.0",
+    "description": "Extension to inject custom code per domain",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": ["storage"]
+}
