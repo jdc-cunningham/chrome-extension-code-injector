@@ -6,6 +6,12 @@ Usually I use YouTube to look up a specific video eg. music or put on some playl
 
 I will add other functionality eg. adding JS/interfaces/etc... to specific websites by domain, this is not an original idea there is a pretty cool extension I briefly used that was specifically for injecting custom JS by domains. I just as I mentioned "want my own".
 
+### How to use
+
+This is not a packaged extension, you have to run this in developer mode. Clone this repo then in the Extensions page use `Load unpacked` and select this folder.
+
+### Extension functionalities
+
 #### YouTube lander recommended tiles hiding mod
 
 ##### Post build/attempt actual
