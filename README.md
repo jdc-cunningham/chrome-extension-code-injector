@@ -21,6 +21,10 @@ As a quick `TL;DR` on how Chrome Extensions work which I'm not an expert but wha
 
 #### YouTube lander recommended tiles hiding mod
 
+##### Disclaimer
+
+I only tested this/intend to use it for a resolution of around/at least 1600px or so...
+
 ##### Post build/attempt actual
 
 This shows the tiles being hidden on load, can click to show them again. Other pages eg. search don't have this class applied as the generic `primary` id exists on other pages. I may have to update the scripts `exclude_matches` array as I find other YouTube urls I use that are affected by that global CSS override.

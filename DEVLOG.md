@@ -2,6 +2,12 @@
 
 08/08/2020
 
+Ahh... so there's multiple `id="primary"` on a page how nice.
+Also no pop state, it seems to be "reacty" eg. soft urls/routing
+hmm.... hoping can select stuff by their custom tags/custom attributes
+
+08/08/2020
+
 So... this is problematic. So far the best thing I've found is to inject CSS that runs right away/override the primary tiles(hide them). You'll see the blank tile placeholders briefly but does the job of not hijacking your intent/mind by showing you a bunch of eye-catching stuff.
 
 Currently struggling with trying to run scripts on certain paths eg. this CSS override should only work on the home page. And I still need to add some way to re-enable/see the primary tiles on home page if I want.

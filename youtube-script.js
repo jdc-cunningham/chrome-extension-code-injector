@@ -26,7 +26,11 @@ const customOverlay = `<div
     </div>`;
 
 window.onload = () => {
-    document.body.addEventListener('click', function() {
-        document.getElementById('primary').classList.add('override-z-index');
+    document.body.addEventListener('click', function(e) {
+        // magic numbers from top bar and left bar desktop dimensions
+        if (e.clientX > 240 && e.clientY > 112) {
+            // removes Z index style
+            document.getElementById('primary').classList.add('override-z-index');
+        }
     });
 };
