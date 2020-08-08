@@ -29,22 +29,4 @@ window.onload = () => {
     document.body.addEventListener('click', function() {
         document.getElementById('primary').classList.add('override-z-index');
     });
-
-    // let primaryLoadedInterval;
-    // let primary = null;
-
-    // primaryLoadedInterval = setInterval(() => {
-    //     if (!primary) {
-    //         primary = document.getElementById('primary');
-    //         document.querySelector('ytd-app').insertBefore += customOverlay;
-    //         clearInterval(primaryLoadedInterval);
-    //     }
-    // }, 150);
 };
-
-console.log('YT code ran');
-
-// listen for click event that removes self
-// youtubeTiles.addEventListener('click', function () {
-//     this.innerHTML -= customOverlay;
-// });

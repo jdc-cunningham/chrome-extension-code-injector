@@ -10,6 +10,13 @@ I will add other functionality eg. adding JS/interfaces/etc... to specific websi
 
 This is not a packaged extension, you have to run this in developer mode. Clone this repo then in the Extensions page use `Load unpacked` and select this folder.
 
+### How it works
+
+As a quick `TL;DR` on how Chrome Extensions work which I'm not an expert but what I learned to make this:
+* `manifest.json` is the starting point, in this case checks for YouTube url patterns
+* then if a match occurs injects the custom CSS/JS code which you can trace what files it loads, that's it, no background stuff going on in this extension
+* `document_start` means it runs right away, does not wait for `DOM` to load, this specifically is most important for CSS overriding so whatever gets loaded does not show its original style
+
 ### Extension functionalities
 
 #### YouTube lander recommended tiles hiding mod
