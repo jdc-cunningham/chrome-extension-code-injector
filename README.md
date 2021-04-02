@@ -1,6 +1,6 @@
 ### About
 
-This is an add-on to the main branch which is for YouTube. I just took out the manifest lines so the YT code doesn't run here. You need your own Node API to get this to work regarding getting data from Reddit since CORs will block your request from CBP to Reddit.
+This is a Chrome extension that can inject Reddit posts into Coinbase Pro if for some reason you wanted to do that.
 
 A single request is performed at a time, say # of posts * 5 seconds or however long your delay is. So there shouldn't be any rate problems. When the cycling is done it will recall the url unless you refresh the page and add a new url.
 
