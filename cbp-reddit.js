@@ -21,9 +21,9 @@ const parseRes = (res) => {
 
     if (!inputElemsRemoved) {
       removeInputElems();
+      insertDisp();
     }
 
-    insertDisp();
     cycleStrings();
   } else {
     alert('something broke'); // lol
@@ -46,7 +46,7 @@ const getAjax = (url, success) => {
 // this is added once and not removed
 const insertDisp = () => {
   document.querySelector(`.${cbpTarget}`).innerHTML +=
-    `<div style="color: white;" id="custom-injector"></div>`;
+    `<div style="color: white; display: flex; align-items: center; justify-content: flex-start;" id="custom-injector"></div>`;
 }
 
 const cycleStrings = () => {
