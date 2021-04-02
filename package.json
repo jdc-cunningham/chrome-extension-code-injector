@@ -1,0 +1,24 @@
+{
+  "name": "chrome-extension-code-injector",
+  "version": "1.0.0",
+  "description": "This is a code injector designed around CBP and injects Reddit comments",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdc-cunningham/chrome-extension-code-injector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdc-cunningham/chrome-extension-code-injector/issues"
+  },
+  "homepage": "https://github.com/jdc-cunningham/chrome-extension-code-injector#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}

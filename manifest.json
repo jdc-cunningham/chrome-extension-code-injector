@@ -5,16 +5,9 @@
     "manifest_version": 2,
     "content_scripts": [
         {
-            "matches": ["https://www.youtube.com/"],
-            "exclude_matches": [
-                "https://www.youtube.com/watch*",
-                "https://www.youtube.com/results*",
-                "https://www.youtube.com/playlist*"
-            ],
-            "css": ["youtube-css-override.css"],
+            "matches": ["https://pro.coinbase.com/trade/BTC-USD"],
             "run_at": "document_start",
-            "js": ["youtube-script-loader.js"]
+            "js": ["cbp-reddit.js"]
         }
-    ],
-    "web_accessible_resources": ["youtube-script.js"]
+    ]
 }
